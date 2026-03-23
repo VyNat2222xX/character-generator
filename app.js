@@ -279,3 +279,17 @@ const CLASS_LABELS = {
 	robber: "Robber",
 	child: "Child",
 };
+
+/* 
+    ═════════════
+      Main code  
+    ═════════════
+*/
+
+const $dialog = document.querySelector("#overlay");
+const $btncreate = document.querySelector("#btnCreate");
+const $form = document.querySelector("#charForm");
+
+$btncreate.addEventListener("click", () => {
+	$dialog.showModal();
+});
